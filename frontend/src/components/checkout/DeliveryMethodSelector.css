@@ -1,0 +1,50 @@
+.deliverymethodselector {
+  border: 1px solid #d7e3ee;
+  border-radius: 14px;
+  background: #fff;
+  padding: 0.95rem;
+}
+
+.deliverymethodselector h3 {
+  margin: 0 0 0.8rem;
+  color: #132b42;
+}
+
+.deliverymethodselector-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.deliverymethodselector-list button {
+  border: 1px solid #d7e3ee;
+  border-radius: 12px;
+  background: #fbfdff;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.deliverymethodselector-list button.selected {
+  border-color: #88b5dc;
+  background: #eef6ff;
+}
+
+.deliverymethodselector-list strong {
+  color: #132b42;
+}
+
+.deliverymethodselector-list p {
+  margin: 0.2rem 0 0;
+  color: #56708a;
+  font-size: 0.86rem;
+}
+
+.deliverymethodselector-list span {
+  color: #173752;
+  font-weight: 700;
+}

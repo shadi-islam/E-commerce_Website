@@ -1,0 +1,85 @@
+.protectedroute {
+  --surface: #fffef9;
+  --surface-soft: #fff5e6;
+  --text-main: #2e2418;
+  --text-muted: #6f5b45;
+  --line: #eed8bc;
+  --accent: #dc7f30;
+  --accent-dark: #b96624;
+  min-height: 58vh;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+}
+
+.protectedroute-card {
+  width: min(560px, 100%);
+  background: linear-gradient(145deg, var(--surface) 0%, var(--surface-soft) 100%);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: 0 14px 32px rgba(53, 31, 11, 0.12);
+  padding: 1.25rem;
+  color: var(--text-main);
+}
+
+.protectedroute-eyebrow {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.protectedroute-card h2 {
+  margin: 0.35rem 0 0.55rem;
+  font-size: 1.55rem;
+}
+
+.protectedroute-card p {
+  margin: 0 0 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
+.protectedroute-actions {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.protectedroute-actions a {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0.58rem 0.95rem;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--accent-dark);
+}
+
+.btn-secondary {
+  background: #fff;
+  color: var(--text-main);
+  border: 1px solid var(--line);
+}
+
+@media (max-width: 640px) {
+  .protectedroute {
+    padding: 1rem;
+  }
+
+  .protectedroute-card {
+    padding: 1rem;
+  }
+
+  .protectedroute-actions a {
+    width: 100%;
+    text-align: center;
+  }
+}

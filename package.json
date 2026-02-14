@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-mern-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Run frontend (Vite) + backend (Express) together",
+  "scripts": {
+    "install:all": "npm --prefix backend ci && npm --prefix frontend ci",
+    "dev": "concurrently -n backend,frontend -c auto \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "start": "concurrently -n backend,frontend -c auto \"npm --prefix backend start\" \"npm --prefix frontend preview\"",
+    "seed": "npm --prefix backend run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}

@@ -1,0 +1,55 @@
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(10, 22, 35, 0.45);
+}
+
+.drawer {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: min(420px, 100%);
+  background: #f8fbff;
+  border-left: 1px solid #d5e2ed;
+  display: flex;
+  flex-direction: column;
+}
+
+.drawer-right {
+  right: 0;
+}
+
+.drawer-left {
+  left: 0;
+  border-left: none;
+  border-right: 1px solid #d5e2ed;
+}
+
+.drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #e6edf5;
+}
+
+.drawer-header h3 {
+  margin: 0;
+  color: #132b42;
+}
+
+.drawer-header button {
+  border: none;
+  background: #e8f2fc;
+  border-radius: 8px;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.drawer-body {
+  padding: 1rem;
+  overflow-y: auto;
+  flex: 1;
+}

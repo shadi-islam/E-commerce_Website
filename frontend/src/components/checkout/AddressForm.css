@@ -1,0 +1,55 @@
+.addressform {
+  border: 1px solid #d7e3ee;
+  border-radius: 14px;
+  background: #fff;
+  padding: 0.95rem;
+}
+
+.addressform h3 {
+  margin: 0 0 0.8rem;
+  color: #132b42;
+}
+
+.addressform form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+}
+
+.addressform label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  color: #4f6b84;
+  font-size: 0.87rem;
+}
+
+.addressform input {
+  border: 1px solid #d7e3ee;
+  border-radius: 10px;
+  padding: 0.58rem 0.7rem;
+}
+
+.addressform .span-2 {
+  grid-column: span 2;
+}
+
+.addressform button {
+  border: none;
+  border-radius: 10px;
+  background: #2f7fd0;
+  color: #fff;
+  padding: 0.64rem 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .addressform form {
+    grid-template-columns: 1fr;
+  }
+
+  .addressform .span-2 {
+    grid-column: auto;
+  }
+}

@@ -1,0 +1,33 @@
+.legal-page {
+  max-width: 920px;
+  margin: 1rem auto;
+  padding: 0 1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.legal-page h1 {
+  margin: 0;
+  color: #173853;
+}
+
+.legal-page p {
+  margin: 0;
+  color: #557089;
+}
+
+.legal-card {
+  border: 1px solid #d7e3ee;
+  border-radius: 14px;
+  background: #fff;
+  padding: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.legal-card h3 {
+  margin: 0.2rem 0 0;
+  color: #173853;
+}

@@ -1,0 +1,77 @@
+.imageuploader {
+  --surface: #ffffff;
+  --surface-soft: #f2f8ff;
+  --line: #d3e2ef;
+  --text-main: #11293f;
+  --text-muted: #5c738d;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: linear-gradient(170deg, var(--surface) 0%, var(--surface-soft) 100%);
+  padding: 1rem;
+}
+
+.imageuploader-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+.imageuploader-field input[type="file"] {
+  border: 1px dashed #9ec3e3;
+  border-radius: 12px;
+  background: #fff;
+  color: var(--text-muted);
+  padding: 0.65rem;
+}
+
+.imageuploader-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 0.8rem;
+}
+
+.image-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.image-card img {
+  width: 100%;
+  aspect-ratio: 1.3 / 1;
+  object-fit: cover;
+  border-bottom: 1px solid #e6eff7;
+}
+
+.image-meta {
+  padding: 0.55rem 0.65rem;
+}
+
+.image-meta p {
+  margin: 0;
+  color: var(--text-main);
+  font-size: 0.86rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.image-meta small {
+  color: var(--text-muted);
+}
+
+.image-card button {
+  width: calc(100% - 1rem);
+  margin: 0.25rem 0.5rem 0.6rem;
+  border: 1px solid #ebc1bd;
+  color: #a3342d;
+  background: #fff6f5;
+  border-radius: 8px;
+  padding: 0.42rem;
+  font-size: 0.82rem;
+  cursor: pointer;
+}

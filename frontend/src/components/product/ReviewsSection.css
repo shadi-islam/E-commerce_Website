@@ -1,0 +1,34 @@
+.reviewssection {
+  border: 1px solid #d7e3ee;
+  border-radius: 14px;
+  background: #fff;
+  padding: 0.9rem;
+}
+
+.reviewssection h3 {
+  margin: 0 0 0.7rem;
+  color: #173a56;
+}
+
+.reviews-list {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.reviews-list article {
+  border: 1px solid #e7eef6;
+  border-radius: 12px;
+  background: #fbfdff;
+  padding: 0.7rem;
+}
+
+.reviews-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews-list p {
+  margin: 0.35rem 0 0;
+  color: #4f6a84;
+}

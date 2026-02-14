@@ -1,0 +1,47 @@
+.orderreview {
+  border: 1px solid #d7e3ee;
+  border-radius: 14px;
+  background: #fff;
+  padding: 0.95rem;
+}
+
+.orderreview h3 {
+  margin: 0 0 0.75rem;
+  color: #132b42;
+}
+
+.orderreview-block {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #ecf2f8;
+}
+
+.orderreview-block h4 {
+  margin: 0 0 0.45rem;
+  color: #1e3b56;
+  font-size: 0.95rem;
+}
+
+.orderreview-block p {
+  margin: 0 0 0.24rem;
+  color: #547089;
+  font-size: 0.88rem;
+}
+
+.orderreview-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+  color: #38536d;
+}
+
+.orderreview-total {
+  padding-top: 0.75rem;
+}
+
+.orderreview-row.grand {
+  margin-top: 0.65rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid #e6eef6;
+  color: #132b42;
+}

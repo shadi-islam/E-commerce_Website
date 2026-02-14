@@ -1,0 +1,38 @@
+.productgallery {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.productgallery-main {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid #d7e3ee;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.productgallery-thumbs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.45rem;
+}
+
+.productgallery-thumbs button {
+  border: 1px solid #d7e3ee;
+  border-radius: 10px;
+  padding: 0;
+  overflow: hidden;
+  background: #fff;
+  cursor: pointer;
+}
+
+.productgallery-thumbs button.active {
+  border-color: #86b6dd;
+}
+
+.productgallery-thumbs img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}

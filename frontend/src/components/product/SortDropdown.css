@@ -1,0 +1,7 @@
+.sortdropdown select {
+  border: 1px solid #d5e2ed;
+  border-radius: 10px;
+  padding: 0.58rem 0.72rem;
+  color: #173a56;
+  background: #fff;
+}

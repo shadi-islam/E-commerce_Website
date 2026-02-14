@@ -1,0 +1,25 @@
+.productfilters {
+  border: 1px solid #d7e3ee;
+  border-radius: 14px;
+  background: #fff;
+  padding: 0.85rem;
+}
+
+.productfilters h3 {
+  margin: 0 0 0.65rem;
+  color: #163853;
+}
+
+.productfilters-group p {
+  margin: 0 0 0.4rem;
+  color: #557089;
+  font-size: 0.85rem;
+}
+
+.productfilters-group label {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-bottom: 0.35rem;
+  color: #33506b;
+}

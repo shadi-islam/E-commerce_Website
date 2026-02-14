@@ -1,0 +1,60 @@
+.successpage {
+  display: grid;
+  place-items: center;
+  padding: 1rem 0;
+}
+
+.successpage-card {
+  width: min(520px, 100%);
+  border: 1px solid #d7e3ee;
+  border-radius: 16px;
+  background: linear-gradient(165deg, #ffffff 0%, #f5fbff 100%);
+  padding: 1.2rem;
+  text-align: center;
+}
+
+.success-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 0.7rem;
+  background: #e9f8ef;
+  color: #1d7f47;
+  border: 1px solid #b8e3c8;
+  font-weight: 700;
+}
+
+.successpage-card h2 {
+  margin: 0;
+  color: #132b42;
+}
+
+.successpage-card p {
+  margin: 0.45rem 0 0;
+  color: #547089;
+}
+
+.order-id {
+  font-weight: 600;
+  color: #20415d;
+}
+
+.success-actions {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.success-actions a {
+  text-decoration: none;
+  border: 1px solid #c6dced;
+  border-radius: 10px;
+  padding: 0.55rem 0.8rem;
+  color: #1f4463;
+  font-weight: 600;
+  background: #fff;
+}

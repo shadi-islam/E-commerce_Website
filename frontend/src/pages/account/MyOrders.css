@@ -1,0 +1,24 @@
+.myorders-page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.myorders-page header p {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  font-size: 0.76rem;
+  color: #5a748d;
+}
+
+.myorders-page header h1 {
+  margin: 0.35rem 0 0.8rem;
+  color: #132c43;
+}
+
+.myorders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.75rem;
+}

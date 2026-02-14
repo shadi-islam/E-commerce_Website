@@ -1,0 +1,49 @@
+.ordercard {
+  border: 1px solid #d7e3ee;
+  border-radius: 14px;
+  background: #fff;
+  padding: 0.9rem;
+}
+
+.ordercard-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.6rem;
+}
+
+.ordercard-top p {
+  margin: 0;
+  color: #1a3a56;
+  font-weight: 700;
+}
+
+.ordercard-top small {
+  color: #5b748d;
+}
+
+.ordercard-meta {
+  margin-top: 0.65rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #41607a;
+}
+
+.ordercard-meta strong {
+  color: #1a3a56;
+}
+
+.ordercard-actions {
+  margin-top: 0.8rem;
+}
+
+.ordercard-actions a {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #c3d8ea;
+  border-radius: 10px;
+  padding: 0.5rem 0.75rem;
+  color: #204666;
+  font-weight: 600;
+}

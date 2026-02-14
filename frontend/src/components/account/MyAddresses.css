@@ -1,0 +1,138 @@
+.myaddresses {
+  --surface: #fffdf8;
+  --surface-soft: #fff7eb;
+  --text-main: #2a1e12;
+  --text-muted: #705841;
+  --line: #ecd8bf;
+  --accent: #d9792b;
+  --accent-dark: #b8601d;
+  --danger: #bd3b2f;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  color: var(--text-main);
+}
+
+.myaddresses-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.myaddresses-header h2 {
+  margin: 0.2rem 0 0;
+  font-size: 1.7rem;
+}
+
+.myaddresses-eyebrow {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.myaddresses-add-btn {
+  border: none;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.65rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.myaddresses-add-btn:hover {
+  background: var(--accent-dark);
+  transform: translateY(-1px);
+}
+
+.myaddresses-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.address-card {
+  background: linear-gradient(150deg, var(--surface) 0%, var(--surface-soft) 100%);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 8px 20px rgba(52, 30, 10, 0.08);
+}
+
+.address-card-top {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.address-tag,
+.address-default {
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: 0.25rem 0.65rem;
+}
+
+.address-tag {
+  background: #f8dcc0;
+  color: #8c4c1f;
+}
+
+.address-default {
+  background: #f5e9d6;
+  color: #7a5b3f;
+}
+
+.address-card h3 {
+  margin: 0 0 0.45rem;
+  font-size: 1rem;
+}
+
+.address-card p {
+  margin: 0 0 0.45rem;
+  color: var(--text-muted);
+  line-height: 1.45;
+}
+
+.address-phone {
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.address-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 0.9rem;
+}
+
+.address-actions button {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--text-main);
+  border-radius: 10px;
+  padding: 0.45rem 0.75rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.address-actions .danger {
+  border-color: #efc0bb;
+  color: var(--danger);
+}
+
+@media (max-width: 640px) {
+  .myaddresses {
+    padding: 1rem;
+  }
+
+  .myaddresses-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

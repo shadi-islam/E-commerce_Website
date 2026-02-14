@@ -1,0 +1,40 @@
+.pricesummary {
+  border: 1px solid #d7e3ee;
+  border-radius: 14px;
+  background: #ffffff;
+  padding: 1rem;
+}
+
+.pricesummary h3 {
+  margin: 0 0 0.9rem;
+  color: #132b42;
+  font-size: 1rem;
+}
+
+.pricesummary-row,
+.pricesummary-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.55rem;
+  color: #4f6a84;
+}
+
+.pricesummary-total {
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid #e7eef6;
+  color: #132b42;
+}
+
+.pricesummary button {
+  margin-top: 0.8rem;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background: #2f7fd0;
+  color: #fff;
+  padding: 0.7rem;
+  font-weight: 700;
+  cursor: pointer;
+}

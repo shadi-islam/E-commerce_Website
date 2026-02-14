@@ -1,0 +1,39 @@
+.addtocartbar {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+.addtocartbar-qty {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #d7e3ee;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.addtocartbar-qty button {
+  border: none;
+  background: #eef4fa;
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+
+.addtocartbar-qty span {
+  min-width: 36px;
+  text-align: center;
+  color: #1c3f5e;
+  font-weight: 700;
+}
+
+.addtocartbar-btn {
+  border: none;
+  border-radius: 10px;
+  background: #2f7fd0;
+  color: #fff;
+  padding: 0.62rem 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+}

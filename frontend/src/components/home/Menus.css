@@ -1,0 +1,18 @@
+.menus header p {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #5a748d;
+  font-size: 0.76rem;
+}
+
+.menus header h2 {
+  margin: 0.35rem 0 0.8rem;
+  color: #132c43;
+}
+
+.menus-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.8rem;
+}

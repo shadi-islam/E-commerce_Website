@@ -1,0 +1,41 @@
+.testimonial {
+  border: 1px solid #d7e3ee;
+  border-radius: 14px;
+  background: #fff;
+  padding: 1rem;
+}
+
+.testimonial header p {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #5a748d;
+  font-size: 0.76rem;
+}
+
+.testimonial header h2 {
+  margin: 0.35rem 0 0.8rem;
+  color: #132c43;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.75rem;
+}
+
+.testimonial-grid article {
+  border: 1px solid #e5edf5;
+  border-radius: 12px;
+  background: #f9fcff;
+  padding: 0.85rem;
+}
+
+.testimonial-grid article p {
+  margin: 0 0 0.55rem;
+  color: #46627d;
+}
+
+.testimonial-grid article strong {
+  color: #1f425f;
+}

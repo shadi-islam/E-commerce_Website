@@ -1,0 +1,41 @@
+.statuspill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  padding: 0.3rem 0.62rem;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+}
+
+.statuspill.success {
+  background: #e6f9ef;
+  color: #146a3a;
+  border-color: #b8e5ca;
+}
+
+.statuspill.warning {
+  background: #fff7de;
+  color: #8d5a07;
+  border-color: #f0ddaa;
+}
+
+.statuspill.info {
+  background: #e7f3ff;
+  color: #1a5b9a;
+  border-color: #bfd9f3;
+}
+
+.statuspill.neutral {
+  background: #eff3f7;
+  color: #536375;
+  border-color: #d0dae5;
+}
+
+.statuspill.danger {
+  background: #fdeceb;
+  color: #a2312a;
+  border-color: #efc3bf;
+}

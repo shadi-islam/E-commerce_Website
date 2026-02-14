@@ -1,0 +1,31 @@
+.variantselector {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.variantselector p {
+  margin: 0;
+  color: #3d5a75;
+  font-size: 0.86rem;
+}
+
+.variantselector div {
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+}
+
+.variantselector button {
+  border: 1px solid #c8d9e9;
+  border-radius: 999px;
+  background: #fff;
+  padding: 0.42rem 0.72rem;
+  color: #1f4564;
+  cursor: pointer;
+}
+
+.variantselector button.active {
+  border-color: #85b4dc;
+  background: #eef6ff;
+}

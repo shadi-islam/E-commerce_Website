@@ -1,0 +1,49 @@
+.newsletter {
+  border: 1px solid #3f5b75;
+  border-radius: 14px;
+  background: linear-gradient(150deg, #0f2f47 0%, #1c4465 100%);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.newsletter-copy p {
+  margin: 0;
+  color: #a9c7df;
+  text-transform: uppercase;
+  font-size: 0.74rem;
+  letter-spacing: 0.07em;
+}
+
+.newsletter-copy h3 {
+  margin: 0.35rem 0 0;
+  color: #f2f9ff;
+  font-size: 1.2rem;
+}
+
+.newsletter form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.newsletter input {
+  min-width: 220px;
+  border: 1px solid #5f82a1;
+  border-radius: 10px;
+  background: #f8fcff;
+  padding: 0.56rem 0.68rem;
+}
+
+.newsletter button {
+  border: none;
+  border-radius: 10px;
+  background: #5bc0ff;
+  color: #082136;
+  font-weight: 700;
+  padding: 0.56rem 0.85rem;
+  cursor: pointer;
+}

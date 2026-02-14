@@ -1,0 +1,53 @@
+.addresspicker {
+  border: 1px solid #d7e3ee;
+  border-radius: 14px;
+  background: #fff;
+  padding: 0.95rem;
+}
+
+.addresspicker h3 {
+  margin: 0 0 0.8rem;
+  color: #132b42;
+}
+
+.addresspicker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.7rem;
+}
+
+.addresspicker-grid button {
+  text-align: left;
+  border: 1px solid #d7e3ee;
+  border-radius: 12px;
+  background: #fbfdff;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+.addresspicker-grid button.selected {
+  border-color: #8ab6dc;
+  background: #eef6ff;
+}
+
+.addresspicker-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+}
+
+.addresspicker-top span {
+  font-size: 0.76rem;
+  color: #2f7fd0;
+  font-weight: 600;
+}
+
+.addresspicker-grid p {
+  margin: 0 0 0.25rem;
+  color: #34516d;
+  font-size: 0.88rem;
+}
+
+.addresspicker-grid small {
+  color: #5f7891;
+}

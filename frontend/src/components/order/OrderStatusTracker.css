@@ -1,0 +1,52 @@
+.orderstatustracker {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.55rem;
+}
+
+.order-status-step {
+  border: 1px solid #d7e3ee;
+  border-radius: 12px;
+  background: #fff;
+  padding: 0.55rem;
+  text-align: center;
+}
+
+.order-status-step span {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: #ecf2f8;
+  color: #32506b;
+}
+
+.order-status-step p {
+  margin: 0.35rem 0 0;
+  color: #47627d;
+  font-size: 0.84rem;
+}
+
+.order-status-step.active {
+  border-color: #8ab6dc;
+  background: #eef6ff;
+}
+
+.order-status-step.active span {
+  background: #2f7fd0;
+  color: #fff;
+}
+
+.order-status-step.done {
+  border-color: #a8d6b8;
+  background: #eff9f2;
+}
+
+.order-status-step.done span {
+  background: #2a9f59;
+  color: #fff;
+}

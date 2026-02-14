@@ -1,0 +1,10 @@
+.relatedproducts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.relatedproducts h3 {
+  margin: 0;
+  color: #163853;
+}

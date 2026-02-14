@@ -1,0 +1,44 @@
+.navbar-wrap {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(8px);
+  background: rgba(8, 23, 37, 0.8);
+  border-bottom: 1px solid rgba(124, 160, 188, 0.28);
+}
+
+.navbar {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0.8rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.brand {
+  font-weight: 800;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.navbar nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.navbar nav a {
+  color: #dfedf9;
+  text-decoration: none;
+  padding: 0.45rem 0.68rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.navbar nav a:hover {
+  background: rgba(227, 242, 255, 0.16);
+}

@@ -1,0 +1,139 @@
+.profileform {
+  --surface: #ffffff;
+  --surface-soft: #f6fbff;
+  --text-main: #162534;
+  --text-muted: #4f6273;
+  --line: #d8e4ee;
+  --accent: #1b8fcb;
+  --accent-dark: #0f72a3;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  color: var(--text-main);
+}
+
+.profileform-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.profile-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #cdeeff 0%, #a7ddfa 100%);
+  border: 1px solid #9bd3f2;
+  color: #0f4e70;
+  font-weight: 700;
+}
+
+.profileform-eyebrow {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.profileform-header h2 {
+  margin: 0.25rem 0;
+  font-size: 1.7rem;
+}
+
+.profile-subtitle {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.profileform-grid {
+  display: grid;
+  gap: 0.95rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  background: linear-gradient(165deg, var(--surface) 0%, var(--surface-soft) 100%);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 10px 24px rgba(8, 38, 59, 0.08);
+}
+
+.profileform-grid label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.profileform-grid input,
+.profileform-grid textarea {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.65rem 0.75rem;
+  font-size: 0.95rem;
+  color: var(--text-main);
+  background: #fff;
+}
+
+.profileform-grid textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.profile-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.7rem;
+  padding-top: 0.2rem;
+}
+
+.profile-actions button {
+  border-radius: 10px;
+  border: none;
+  padding: 0.62rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.profile-actions .secondary {
+  background: #ebf2f8;
+  color: #274357;
+}
+
+.profile-actions .primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.profile-actions .primary:hover {
+  background: var(--accent-dark);
+}
+
+@media (max-width: 700px) {
+  .profileform {
+    padding: 1rem;
+  }
+
+  .profileform-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .span-2 {
+    grid-column: auto;
+  }
+
+  .profile-actions {
+    justify-content: stretch;
+  }
+
+  .profile-actions button {
+    width: 100%;
+  }
+}

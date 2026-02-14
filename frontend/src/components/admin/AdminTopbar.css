@@ -1,0 +1,94 @@
+.admintopbar {
+  --surface: #ffffff;
+  --text-main: #11253a;
+  --text-muted: #5a728c;
+  --line: #d7e4ef;
+  --accent: #2e7ecf;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+.admintopbar-title h1 {
+  margin: 0;
+  font-size: 1.45rem;
+  color: var(--text-main);
+}
+
+.admintopbar-title p {
+  margin: 0.3rem 0 0;
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+.admintopbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.admintopbar-search input {
+  width: 240px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.55rem 0.7rem;
+}
+
+.admintopbar-alert {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--text-main);
+  border-radius: 10px;
+  padding: 0.55rem 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.admintopbar-alert:hover {
+  border-color: #b9d2e8;
+  color: var(--accent);
+}
+
+.admintopbar-user {
+  border-radius: 999px;
+  padding: 0.45rem 0.75rem;
+  background: #ebf4ff;
+  border: 1px solid #c9ddf0;
+  color: #18466e;
+  font-weight: 600;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@media (max-width: 860px) {
+  .admintopbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .admintopbar-actions {
+    flex-wrap: wrap;
+  }
+
+  .admintopbar-search {
+    flex: 1;
+  }
+
+  .admintopbar-search input {
+    width: 100%;
+  }
+}

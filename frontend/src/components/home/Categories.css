@@ -1,0 +1,35 @@
+.categories {
+  border: 1px solid #d7e3ee;
+  border-radius: 14px;
+  background: linear-gradient(165deg, #ffffff 0%, #f5fbff 100%);
+  padding: 1rem;
+}
+
+.categories header p {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #5a748d;
+  font-size: 0.76rem;
+}
+
+.categories header h2 {
+  margin: 0.35rem 0 0.8rem;
+  color: #132c43;
+}
+
+.categories-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.categories-list button {
+  border: 1px solid #cbdcec;
+  border-radius: 999px;
+  background: #fff;
+  color: #20415f;
+  padding: 0.45rem 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+}
